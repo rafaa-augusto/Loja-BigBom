@@ -1,0 +1,212 @@
+/* Estilização do botão de pesquisa */
+.search-input {
+  border-radius: 20px;
+}
+
+.btn-custom-search {
+  background-color: #28a745;
+  color: white;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+.btn-custom-search:hover {
+  background-color: #218838;
+  color: white;
+}
+
+/* Estilização do carrinho e modal */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 10px;
+}
+
+.modal-header, .modal-footer {
+  background-color: #343a40;
+  color: white;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-footer .btn-primary {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+/* Estilização do carrinho e modal */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e9ecef;
+  padding-bottom: 10px;
+}
+
+.modal-header, .modal-footer {
+  background-color: #343a40;
+  color: white;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-footer .btn-primary {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+
+
+
+
+.carousel-inner img {
+    max-width: 1000px; /* Ajuste o tamanho máximo da largura conforme necessário */
+    max-height: 500px; /* Ajuste o tamanho máximo da altura conforme necessário */
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  .carousel {
+    max-width: 500px; /* Ajuste o tamanho máximo do carrossel conforme necessário */
+    margin: auto;
+  }
+
+  .full-screen {
+    height: 100vh;
+  }
+  
+  .router-link img {
+    border: solid white;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .router-link img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px rgba(0, 238, 255, 0.8);
+  }
+  
+
+  .router-link {
+    display: inline-block;
+    padding: 20px; /* Aumentando o padding para deixar maior */
+    margin: 10px; /* Adicionando margem para deixá-los mais justos */
+    border-radius: 5px;
+    text-align: center;
+     /* Background preto para todos */
+    color: white; /* Cor do texto branco */
+  }
+
+  .router-link img {
+    max-width: 130px; /* Aumentando o tamanho máximo da imagem */
+    width: 100%;
+    height: auto;
+  }
+
+  .full-screen {
+    height: 30rem; /* Full viewport height */
+    background-color: black; /* Ensure background color is black */
+  }
+
+  .full-screen-2 {
+    height: 30rem; /* Full viewport height */
+    background-color: black; /* Ensure background color is black */
+  }
+
+  .router-link img {
+    max-width: 150px; /* Aumentando o tamanho máximo da imagem */
+    width: 100%;
+    height: auto;
+  }
+
+  .text-center {
+    text-align: center;
+    color: white; /* Texto branco para contraste */
+    font-size: 24px;
+  }
+
+
+
+  .texto {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  
+  .texto h2 {
+    color: white;
+    font-size: 2em; /* Tamanho do título reduzido */
+    margin-bottom: 20px;
+  }
+  
+  .texto p {
+    color: white;
+    font-size: 1em; /* Tamanho do texto reduzido */
+    margin-bottom: 10px;
+  }
+  
+  .texto .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em; /* Tamanho do botão ajustado */
+  }
+  
+  .custom-img {
+    max-width: 60%; /* Tamanho da imagem reduzido */
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+
+
+
+  /*Rodapé*/
+  .footer {
+    background-color: #1f1f1f; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 50px 0; /* Espaçamento interno */
+  }
+  
+  .footer h5 {
+    color: #fff; /* Cor do título */
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer p, .footer ul {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul li a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    text-decoration: underline; /* Efeito ao passar o mouse */
+  }
+  
